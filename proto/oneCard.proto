@@ -1,0 +1,13 @@
+syntax = "proto3"
+
+service Game{
+  rpc GameStart (GameRequest) returns (GameReply) {}
+}
+
+message GameRequest{
+  string name = 1;
+}
+
+message GameReply{
+  string message = 1;
+}

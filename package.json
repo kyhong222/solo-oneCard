@@ -4,6 +4,8 @@
     "ts-node": "^10.4.0"
   },
   "dependencies": {
+    "@grpc/proto-loader": "^0.6.9",
+    "grpc": "^1.24.11",
     "typescript": "^4.5.4"
   },
   "scripts": {
