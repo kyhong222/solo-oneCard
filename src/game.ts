@@ -93,7 +93,8 @@ function gameInit(): void {
   deck.shift();
 }
 
-function game(): void {
+export function game(): void {
+  gameInit();
   while (hand.length && deck.length) {
     console.log("========================================");
 
@@ -123,6 +124,3 @@ function game(): void {
   console.log("최종 점수:", score);
   return;
 }
-
-gameInit();
-game();
