@@ -1,5 +1,3 @@
-import { GameReply } from "./proto/oneCard_pb";
-
 var messages = require("./proto/oneCard_pb");
 var services = require("./proto/oneCard_grpc_pb");
 
